@@ -19,11 +19,10 @@ const userSchema = mongoose.Schema({
     password:{
         type: String
     },
-    created: {
-        type: Date,
-        default: Date.now()
+    role:{
+        type: String
     }
-})
+},{ timestamps: true })
 
 //register userSchamas to model
 const user =  mongoose.model('user', userSchema)

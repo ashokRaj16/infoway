@@ -1,6 +1,6 @@
 
 const insert = (data) => {
-    return data
+    return data;
 }
 
 module.exports = insert;
